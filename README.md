@@ -20,7 +20,7 @@
 -  To add the github repo link in origin if the origin is empty:
 
     ```
-    git remote add origin github_Repo_Link
+    git remote add origin <github_Repo_Link>
     ```
 
     -  To update/replace the github repo link, first we need to remove the old link then add the new link:
@@ -32,12 +32,13 @@
 
     2. This will add the new link
     ```
-    git remote add origin github_Repo_Link
+    git remote add origin <github_Repo_Link>
     ```
 
     NOTE: You can add .gitignore, LICENSE and many more pre built files offered by github from the repository after that you need to update your source code in youre system:
 
     *NOTE: Here, I am using the branch name as 'main'*
+   
     ```
     git pull origin main
     ```
